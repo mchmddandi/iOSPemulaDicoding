@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "139-1396127_microsoft-clip-art-package.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "139-1396127_microsoft-clip-art-package@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "139-1396127_microsoft-clip-art-package@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

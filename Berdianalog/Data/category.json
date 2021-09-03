@@ -1,0 +1,17 @@
+[
+  {
+    "id" : 1,
+    "name" : "Camera",
+    "image" : "camera-c"
+  },
+  {
+    "id" : 2,
+    "name" : "Roll Film",
+    "image" : "roll-c"
+  },
+  {
+    "id" : 3,
+    "name" : "T-shirt",
+    "image" : "tshirt-c"
+  }
+]

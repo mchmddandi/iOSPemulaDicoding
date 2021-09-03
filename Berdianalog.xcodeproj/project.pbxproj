@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5546EC97267A331600B765FE /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546EC96267A331600B765FE /* AboutView.swift */; };
+		55FED0262677837100C91CAE /* BerdianalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0252677837100C91CAE /* BerdianalogApp.swift */; };
+		55FED0282677837100C91CAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0272677837100C91CAE /* ContentView.swift */; };
+		55FED02A2677837100C91CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FED0292677837100C91CAE /* Assets.xcassets */; };
+		55FED02D2677837100C91CAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FED02C2677837100C91CAE /* Preview Assets.xcassets */; };
+		55FED038267796F200C91CAE /* photograph.json in Resources */ = {isa = PBXBuildFile; fileRef = 55FED034267796F200C91CAE /* photograph.json */; };
+		55FED039267796F200C91CAE /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = 55FED035267796F200C91CAE /* brand.json */; };
+		55FED03A267796F200C91CAE /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 55FED036267796F200C91CAE /* product.json */; };
+		55FED03B267796F200C91CAE /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 55FED037267796F200C91CAE /* category.json */; };
+		55FED0462677A17600C91CAE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0452677A17600C91CAE /* Constant.swift */; };
+		55FED0482677A23500C91CAE /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0472677A23500C91CAE /* FooterView.swift */; };
+		55FED04C2677A84800C91CAE /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED04B2677A84800C91CAE /* NavigationBarView.swift */; };
+		55FED04E2677AA3400C91CAE /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED04D2677AA3400C91CAE /* LogoView.swift */; };
+		55FED0502677B10C00C91CAE /* PhotographModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED04F2677B10C00C91CAE /* PhotographModel.swift */; };
+		55FED0522677B18B00C91CAE /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0512677B18B00C91CAE /* CodableBundleExtension.swift */; };
+		55FED0542677B36500C91CAE /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0532677B36500C91CAE /* FeaturedItemView.swift */; };
+		55FED0562677B50300C91CAE /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0552677B50300C91CAE /* FeaturedTabView.swift */; };
+		55FED0582677C35F00C91CAE /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0572677C35F00C91CAE /* CategoryModel.swift */; };
+		55FED05A2677C4CA00C91CAE /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0592677C4CA00C91CAE /* CategoryItemView.swift */; };
+		55FED05C2677C6BE00C91CAE /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED05B2677C6BE00C91CAE /* CategoryGridView.swift */; };
+		55FED05E2677C91D00C91CAE /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED05D2677C91D00C91CAE /* SectionView.swift */; };
+		55FED0602677CC6C00C91CAE /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED05F2677CC6C00C91CAE /* TitleView.swift */; };
+		55FED0622677CDEB00C91CAE /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0612677CDEB00C91CAE /* ProductModel.swift */; };
+		55FED0662677DD3800C91CAE /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0652677DD3800C91CAE /* ProductItemView.swift */; };
+		55FED0682678455800C91CAE /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0672678455800C91CAE /* BrandModel.swift */; };
+		55FED06A267845BC00C91CAE /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED069267845BC00C91CAE /* BrandItemView.swift */; };
+		55FED06C2678477C00C91CAE /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED06B2678477C00C91CAE /* BrandGridView.swift */; };
+		55FED06E26784BA900C91CAE /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED06D26784BA900C91CAE /* ProductDetailView.swift */; };
+		55FED07026784CB700C91CAE /* NavigatonBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED06F26784CB700C91CAE /* NavigatonBarDetailView.swift */; };
+		55FED07226784E2000C91CAE /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED07126784E2000C91CAE /* HeaderDetailView.swift */; };
+		55FED07426784EEE00C91CAE /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED07326784EEE00C91CAE /* TopPartDetailView.swift */; };
+		55FED076267852E000C91CAE /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED075267852E000C91CAE /* CustomShape.swift */; };
+		55FED0782678597900C91CAE /* RatingSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED0772678597900C91CAE /* RatingSizesDetailView.swift */; };
+		55FED07A26785D4C00C91CAE /* QuantityFavouriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED07926785D4C00C91CAE /* QuantityFavouriteDetailView.swift */; };
+		55FED07C267860E500C91CAE /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED07B267860E500C91CAE /* AddToCartDetailView.swift */; };
+		55FED07E2678631900C91CAE /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FED07D2678631900C91CAE /* Shop.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5546EC96267A331600B765FE /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		55FED0222677837100C91CAE /* Berdianalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Berdianalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FED0252677837100C91CAE /* BerdianalogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerdianalogApp.swift; sourceTree = "<group>"; };
+		55FED0272677837100C91CAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55FED0292677837100C91CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55FED02C2677837100C91CAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55FED02E2677837100C91CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FED034267796F200C91CAE /* photograph.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = photograph.json; sourceTree = "<group>"; };
+		55FED035267796F200C91CAE /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		55FED036267796F200C91CAE /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		55FED037267796F200C91CAE /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		55FED0452677A17600C91CAE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		55FED0472677A23500C91CAE /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		55FED04B2677A84800C91CAE /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		55FED04D2677AA3400C91CAE /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		55FED04F2677B10C00C91CAE /* PhotographModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotographModel.swift; sourceTree = "<group>"; };
+		55FED0512677B18B00C91CAE /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		55FED0532677B36500C91CAE /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		55FED0552677B50300C91CAE /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
+		55FED0572677C35F00C91CAE /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		55FED0592677C4CA00C91CAE /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		55FED05B2677C6BE00C91CAE /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		55FED05D2677C91D00C91CAE /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		55FED05F2677CC6C00C91CAE /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		55FED0612677CDEB00C91CAE /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		55FED0652677DD3800C91CAE /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		55FED0672678455800C91CAE /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
+		55FED069267845BC00C91CAE /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
+		55FED06B2678477C00C91CAE /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		55FED06D26784BA900C91CAE /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		55FED06F26784CB700C91CAE /* NavigatonBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatonBarDetailView.swift; sourceTree = "<group>"; };
+		55FED07126784E2000C91CAE /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		55FED07326784EEE00C91CAE /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
+		55FED075267852E000C91CAE /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		55FED0772678597900C91CAE /* RatingSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingSizesDetailView.swift; sourceTree = "<group>"; };
+		55FED07926785D4C00C91CAE /* QuantityFavouriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavouriteDetailView.swift; sourceTree = "<group>"; };
+		55FED07B267860E500C91CAE /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		55FED07D2678631900C91CAE /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55FED01F2677837100C91CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5546EC95267A32F600B765FE /* AboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				5546EC96267A331600B765FE /* AboutView.swift */,
+			);
+			path = AboutMe;
+			sourceTree = "<group>";
+		};
+		55FED0192677837100C91CAE = {
+			isa = PBXGroup;
+			children = (
+				55FED0242677837100C91CAE /* Berdianalog */,
+				55FED0232677837100C91CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55FED0232677837100C91CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55FED0222677837100C91CAE /* Berdianalog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55FED0242677837100C91CAE /* Berdianalog */ = {
+			isa = PBXGroup;
+			children = (
+				5546EC95267A32F600B765FE /* AboutMe */,
+				55FED03D2677A08400C91CAE /* App */,
+				55FED0402677A0BD00C91CAE /* View */,
+				55FED03C267796FB00C91CAE /* Data */,
+				55FED03E2677A0A400C91CAE /* Model */,
+				55FED0432677A10F00C91CAE /* Exstension */,
+				55FED0442677A11D00C91CAE /* Utility */,
+				55FED0292677837100C91CAE /* Assets.xcassets */,
+				55FED02E2677837100C91CAE /* Info.plist */,
+				55FED02B2677837100C91CAE /* Preview Content */,
+			);
+			path = Berdianalog;
+			sourceTree = "<group>";
+		};
+		55FED02B2677837100C91CAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55FED02C2677837100C91CAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55FED03C267796FB00C91CAE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				55FED035267796F200C91CAE /* brand.json */,
+				55FED037267796F200C91CAE /* category.json */,
+				55FED034267796F200C91CAE /* photograph.json */,
+				55FED036267796F200C91CAE /* product.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		55FED03D2677A08400C91CAE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				55FED0252677837100C91CAE /* BerdianalogApp.swift */,
+				55FED0272677837100C91CAE /* ContentView.swift */,
+				55FED06D26784BA900C91CAE /* ProductDetailView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		55FED03E2677A0A400C91CAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55FED04F2677B10C00C91CAE /* PhotographModel.swift */,
+				55FED0572677C35F00C91CAE /* CategoryModel.swift */,
+				55FED0612677CDEB00C91CAE /* ProductModel.swift */,
+				55FED0672678455800C91CAE /* BrandModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55FED0402677A0BD00C91CAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55FED0422677A0E400C91CAE /* Home */,
+				55FED0412677A0DA00C91CAE /* Detail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55FED0412677A0DA00C91CAE /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				55FED06F26784CB700C91CAE /* NavigatonBarDetailView.swift */,
+				55FED07126784E2000C91CAE /* HeaderDetailView.swift */,
+				55FED07326784EEE00C91CAE /* TopPartDetailView.swift */,
+				55FED0772678597900C91CAE /* RatingSizesDetailView.swift */,
+				55FED07926785D4C00C91CAE /* QuantityFavouriteDetailView.swift */,
+				55FED07B267860E500C91CAE /* AddToCartDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		55FED0422677A0E400C91CAE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				55FED0472677A23500C91CAE /* FooterView.swift */,
+				55FED04B2677A84800C91CAE /* NavigationBarView.swift */,
+				55FED04D2677AA3400C91CAE /* LogoView.swift */,
+				55FED0532677B36500C91CAE /* FeaturedItemView.swift */,
+				55FED0552677B50300C91CAE /* FeaturedTabView.swift */,
+				55FED0592677C4CA00C91CAE /* CategoryItemView.swift */,
+				55FED05B2677C6BE00C91CAE /* CategoryGridView.swift */,
+				55FED05D2677C91D00C91CAE /* SectionView.swift */,
+				55FED05F2677CC6C00C91CAE /* TitleView.swift */,
+				55FED0652677DD3800C91CAE /* ProductItemView.swift */,
+				55FED069267845BC00C91CAE /* BrandItemView.swift */,
+				55FED06B2678477C00C91CAE /* BrandGridView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		55FED0432677A10F00C91CAE /* Exstension */ = {
+			isa = PBXGroup;
+			children = (
+				55FED0512677B18B00C91CAE /* CodableBundleExtension.swift */,
+			);
+			path = Exstension;
+			sourceTree = "<group>";
+		};
+		55FED0442677A11D00C91CAE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				55FED0452677A17600C91CAE /* Constant.swift */,
+				55FED075267852E000C91CAE /* CustomShape.swift */,
+				55FED07D2678631900C91CAE /* Shop.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55FED0212677837100C91CAE /* Berdianalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FED0312677837100C91CAE /* Build configuration list for PBXNativeTarget "Berdianalog" */;
+			buildPhases = (
+				55FED01E2677837100C91CAE /* Sources */,
+				55FED01F2677837100C91CAE /* Frameworks */,
+				55FED0202677837100C91CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Berdianalog;
+			productName = Berdianalog;
+			productReference = 55FED0222677837100C91CAE /* Berdianalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55FED01A2677837100C91CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					55FED0212677837100C91CAE = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 55FED01D2677837100C91CAE /* Build configuration list for PBXProject "Berdianalog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55FED0192677837100C91CAE;
+			productRefGroup = 55FED0232677837100C91CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55FED0212677837100C91CAE /* Berdianalog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55FED0202677837100C91CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FED038267796F200C91CAE /* photograph.json in Resources */,
+				55FED039267796F200C91CAE /* brand.json in Resources */,
+				55FED02D2677837100C91CAE /* Preview Assets.xcassets in Resources */,
+				55FED03B267796F200C91CAE /* category.json in Resources */,
+				55FED02A2677837100C91CAE /* Assets.xcassets in Resources */,
+				55FED03A267796F200C91CAE /* product.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55FED01E2677837100C91CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FED0522677B18B00C91CAE /* CodableBundleExtension.swift in Sources */,
+				55FED07226784E2000C91CAE /* HeaderDetailView.swift in Sources */,
+				55FED07426784EEE00C91CAE /* TopPartDetailView.swift in Sources */,
+				55FED0282677837100C91CAE /* ContentView.swift in Sources */,
+				5546EC97267A331600B765FE /* AboutView.swift in Sources */,
+				55FED0502677B10C00C91CAE /* PhotographModel.swift in Sources */,
+				55FED04E2677AA3400C91CAE /* LogoView.swift in Sources */,
+				55FED0542677B36500C91CAE /* FeaturedItemView.swift in Sources */,
+				55FED0662677DD3800C91CAE /* ProductItemView.swift in Sources */,
+				55FED07C267860E500C91CAE /* AddToCartDetailView.swift in Sources */,
+				55FED06C2678477C00C91CAE /* BrandGridView.swift in Sources */,
+				55FED0482677A23500C91CAE /* FooterView.swift in Sources */,
+				55FED06E26784BA900C91CAE /* ProductDetailView.swift in Sources */,
+				55FED07026784CB700C91CAE /* NavigatonBarDetailView.swift in Sources */,
+				55FED0262677837100C91CAE /* BerdianalogApp.swift in Sources */,
+				55FED05C2677C6BE00C91CAE /* CategoryGridView.swift in Sources */,
+				55FED0582677C35F00C91CAE /* CategoryModel.swift in Sources */,
+				55FED0462677A17600C91CAE /* Constant.swift in Sources */,
+				55FED05E2677C91D00C91CAE /* SectionView.swift in Sources */,
+				55FED06A267845BC00C91CAE /* BrandItemView.swift in Sources */,
+				55FED05A2677C4CA00C91CAE /* CategoryItemView.swift in Sources */,
+				55FED0782678597900C91CAE /* RatingSizesDetailView.swift in Sources */,
+				55FED0562677B50300C91CAE /* FeaturedTabView.swift in Sources */,
+				55FED076267852E000C91CAE /* CustomShape.swift in Sources */,
+				55FED04C2677A84800C91CAE /* NavigationBarView.swift in Sources */,
+				55FED07E2678631900C91CAE /* Shop.swift in Sources */,
+				55FED0682678455800C91CAE /* BrandModel.swift in Sources */,
+				55FED0602677CC6C00C91CAE /* TitleView.swift in Sources */,
+				55FED07A26785D4C00C91CAE /* QuantityFavouriteDetailView.swift in Sources */,
+				55FED0622677CDEB00C91CAE /* ProductModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55FED02F2677837100C91CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55FED0302677837100C91CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55FED0322677837100C91CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Berdianalog/Preview Content\"";
+				DEVELOPMENT_TEAM = 2Q7AY7YXHZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Berdianalog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.submission.Berdianalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55FED0332677837100C91CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Berdianalog/Preview Content\"";
+				DEVELOPMENT_TEAM = 2Q7AY7YXHZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Berdianalog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.submission.Berdianalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55FED01D2677837100C91CAE /* Build configuration list for PBXProject "Berdianalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FED02F2677837100C91CAE /* Debug */,
+				55FED0302677837100C91CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FED0312677837100C91CAE /* Build configuration list for PBXNativeTarget "Berdianalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FED0322677837100C91CAE /* Debug */,
+				55FED0332677837100C91CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55FED01A2677837100C91CAE /* Project object */;
+}
